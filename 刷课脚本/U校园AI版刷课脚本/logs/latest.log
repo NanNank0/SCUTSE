@@ -1,0 +1,53 @@
+2026-07-04T14:37:50,161 [main] INFO  Main  : Application starting...
+2026-07-04T14:37:58,322 [AWT-EventQueue-0] INFO  Task  : Creating task for user: 18202000634
+2026-07-04T14:37:58,537 [AWT-EventQueue-0] INFO  Task  : User 18202000634 logging in...
+2026-07-04T14:37:58,538 [AWT-EventQueue-0] DEBUG UnipusRequest  : Attempting to log in with username: 18202000634
+2026-07-04T14:37:59,062 [AWT-EventQueue-0] DEBUG UnipusRequest  : Fetching user info.
+2026-07-04T14:37:59,393 [AWT-EventQueue-0] INFO  Task  : Login successful for user: 18202000634
+2026-07-04T14:37:59,394 [AWT-EventQueue-0] INFO  TaskManager  : Task task-18202000634 added.
+2026-07-04T14:38:01,433 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching course list.
+2026-07-04T14:38:05,587 [task-18202000634] INFO  Task [task-18202000634] : User selected course: 25级EAP视听说（二）, course resource: 新视野大学英语（第四版）视听说教程3
+2026-07-04T14:38:05,587 [task-18202000634] INFO  Learn [task-18202000634] : Start learning.
+2026-07-04T14:38:05,587 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching course resource info by ID.
+2026-07-04T14:38:05,684 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching all tasks of course.
+2026-07-04T14:38:05,845 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching required part of course.
+2026-07-04T14:38:06,058 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching progress of studying
+2026-07-04T14:38:06,209 [task-18202000634] INFO  Learn [task-18202000634] :  : Course preview has been completed.
+2026-07-04T14:38:06,210 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:06,369 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf3b36002c50
+2026-07-04T14:38:06,481 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724ddb0c400289e, skipped.
+2026-07-04T14:38:06,482 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 707efdd94002b7d, skipped.
+2026-07-04T14:38:06,482 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 707f0b860002b7d : [exit-ticket], skipped.
+2026-07-04T14:38:06,482 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724c451220024fa, skipped.
+2026-07-04T14:38:06,482 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724c45ec40024fa, skipped.
+2026-07-04T14:38:06,482 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724c455520024fa, skipped.
+2026-07-04T14:38:06,482 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:06,582 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf402d002750
+2026-07-04T14:38:06,692 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 7366af57d0020b9, skipped.
+2026-07-04T14:38:06,692 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724e24aff05289e, skipped.
+2026-07-04T14:38:06,692 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 75334bb0b00222a : [multichoice], skipped.
+2026-07-04T14:38:06,693 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 70b290d3a002ab2 : [exit-ticket], skipped.
+2026-07-04T14:38:06,693 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724e24aff03289e, skipped.
+2026-07-04T14:38:06,693 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:06,788 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf421e002750
+2026-07-04T14:38:06,903 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 7366c06aa004729, skipped.
+2026-07-04T14:38:06,903 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 70d977bbd002cb1 : [multichoice], skipped.
+2026-07-04T14:38:06,904 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 70d98c651002cb1 : [exit-ticket], skipped.
+2026-07-04T14:38:06,904 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724ea7c8502289e, skipped.
+2026-07-04T14:38:06,904 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 724ea7c8504289e, skipped.
+2026-07-04T14:38:06,904 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:06,997 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf43a0002c50
+2026-07-04T14:38:07,107 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 736c8907e0020b9, skipped.
+2026-07-04T14:38:07,107 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 70eb84dcb002cf9, skipped.
+2026-07-04T14:38:07,107 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 7254876ad00224d : [multichoice], skipped.
+2026-07-04T14:38:07,107 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 74fa049ac002cff : [multiFileUpload], skipped.
+2026-07-04T14:38:07,107 [task-18202000634] INFO  Learn [task-18202000634] : Unsupported question type of task 70ebb3a10002cb1 : [exit-ticket], skipped.
+2026-07-04T14:38:07,107 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 725450bcd06289e, skipped.
+2026-07-04T14:38:07,107 [task-18202000634] WARN  Learn [task-18202000634] : Unknown question type of task 725450bcd08289e, skipped.
+2026-07-04T14:38:07,107 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:07,212 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf44f0002750
+2026-07-04T14:38:07,333 [task-18202000634] INFO  Learn [task-18202000634] : All task completed unit: Unit 5 : More than a paycheck, skipped.
+2026-07-04T14:38:07,333 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task time info.
+2026-07-04T14:38:07,427 [task-18202000634] DEBUG UnipusRequest [task-18202000634] : Fetching task situation of unit 740bf4642002750
+2026-07-04T14:38:07,528 [task-18202000634] INFO  Learn [task-18202000634] : All task completed unit: Unit 6 : For every question there is an answer, skipped.
+2026-07-04T14:38:07,528 [task-18202000634] INFO  Task [task-18202000634] : Task task-18202000634 completed successfully for user: 18202000634

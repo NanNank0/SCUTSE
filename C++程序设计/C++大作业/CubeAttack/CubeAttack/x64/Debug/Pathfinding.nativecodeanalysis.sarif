@@ -1,0 +1,235 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35217.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/pathfinding.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "14402e837849ef3cf0d8a5bd15bb5019c50f86663f59bec0d49c070107162565"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/pathfinding.h"
+          },
+          "hashes": {
+            "sha-256": "7d1f77f43524b51b26d337c57ad5bbc75bd551990eddf1804753d244bb72aca4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector2.hpp"
+          },
+          "hashes": {
+            "sha-256": "d4150c93bcced4c3a65dbb07403c9ffe7e9ccfe9330eb7a09f5c0c935d54678a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/angle.hpp"
+          },
+          "hashes": {
+            "sha-256": "c60b2fa92da017c136eb07fb5a66f65aa39034c4a1cea475be85318ffc42bd56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/angle.inl"
+          },
+          "hashes": {
+            "sha-256": "57b374420e2431dd8d502acc7dd12663eab3f0db4c88ed81cbb244850b71a564"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "e6e7a91a34adfc131809ff0a19191b948bb079ea0b93bbe361807c1c51aed5b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/guard.h"
+          },
+          "hashes": {
+            "sha-256": "81529a650bbc9be03553d6087cfdc9c76204adad9c4acc69d68af67ec4246334"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/sprite.hpp"
+          },
+          "hashes": {
+            "sha-256": "63da5cc4e536503d72001696acc62445dee847d479dfd4aeed9ed8e176d055a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e8e40295aaf996d44892dfbcc031a8dd04f4c3cb7dea7f63fe62f6ebe2f1306"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "f271118976c0f1f2fd10449dfb49602831668b04726ad882726a071035ae8254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/drawable.hpp"
+          },
+          "hashes": {
+            "sha-256": "e1c18c06acbe8bc93e7644da7f3ba28cd3f0d1898a7f12ceea25957dabee7827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rect.hpp"
+          },
+          "hashes": {
+            "sha-256": "ea3394e920b85cb5579b73421bd7ab51b6f0aa5eb6e9d0311870ad81b59efe64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rect.inl"
+          },
+          "hashes": {
+            "sha-256": "d9c590898d2f7be3a5b5b5b31b218fdb8f736c926f697120964cfe69baa5a223"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/renderstates.hpp"
+          },
+          "hashes": {
+            "sha-256": "5137f47cd30f5c68e010cca9a67de8591077a0ad107093cbac5bc72adf621cb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/blendmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "fc73a5fa539e59ca1f4be66d91ba277632caa3d32cb43023ec59ba662a74ee06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/coordinatetype.hpp"
+          },
+          "hashes": {
+            "sha-256": "b483e92942471295e6628a3107aa11d0c87d43b8717cc0c98c86dd7ab6273e77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/stencilmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "91057b46a3990f8f3c565c6ec0b843d13ad88e3219133edb2d78a3b8b8c45ed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "0962d131e6b98481bd5595797fdc841d273a1434652217545daddc4e261c811d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transform.inl"
+          },
+          "hashes": {
+            "sha-256": "1f460d7cf3dc6d2b74ba549d870d4ca0a6aa129ffcb74b72f05b342b06f0479e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transformable.hpp"
+          },
+          "hashes": {
+            "sha-256": "6057fb8364f7f4b5d3abb67f6d96669965cf7cf7caf230501d5773761e2f3948"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/vertex.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6bd3a255e9d48f0f161784598ea22e2afa75f883d64eb74928f00fdbe1b95bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/color.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ca33977ef544d38b98008f1bd88b213e4621c6d39ae550ffbf98a0596f03ee9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/color.inl"
+          },
+          "hashes": {
+            "sha-256": "256cc159cf69cf12c57909efd093f716e44c247299753f0f5f65e8560782cffe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/texture.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6b1fda83787371a3b27cb68c8013830dcdde497c39eecb81071b78d03ef727f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/glresource.hpp"
+          },
+          "hashes": {
+            "sha-256": "1de76fa184c086ffd886e4b6533dad712854b0bf05761020696ec935e9a8bb48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "a52d045875683fdf02f9cfdf5b4743dc5ecc3d94dc42b7e148687c4935009bfe"
+          }
+        }
+      ]
+    }
+  ]
+}

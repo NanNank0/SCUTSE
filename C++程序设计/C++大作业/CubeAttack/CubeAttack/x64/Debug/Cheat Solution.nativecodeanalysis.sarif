@@ -1,0 +1,1939 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "MSVC Code Analysis",
+          "version": "14.44.35217.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/cheat solution.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "72412ecce6f18c684038c44a03f4144bddc8fae11090e9d2175058a48130b10a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/game.h"
+          },
+          "hashes": {
+            "sha-256": "d68757b55b23f4ce8fe8b461bfb985af61573b9f6047b8100b52059e80c2adcb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics.hpp"
+          },
+          "hashes": {
+            "sha-256": "068f41f6b38a1d27e73d6c6cc0cd2be1e86f25d3fb695c1a9ace791f983d3f92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/blendmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "fc73a5fa539e59ca1f4be66d91ba277632caa3d32cb43023ec59ba662a74ee06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e8e40295aaf996d44892dfbcc031a8dd04f4c3cb7dea7f63fe62f6ebe2f1306"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "f271118976c0f1f2fd10449dfb49602831668b04726ad882726a071035ae8254"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/circleshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "68b82717cdc81870f0538383d0e964a2d0bfdc1ab393becd0500a9a6ef83d08a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/shape.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ef718f19c9a9238c535a4e5e0288bc034449904c41cdd6fd29ec2bd574000f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/color.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ca33977ef544d38b98008f1bd88b213e4621c6d39ae550ffbf98a0596f03ee9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/color.inl"
+          },
+          "hashes": {
+            "sha-256": "256cc159cf69cf12c57909efd093f716e44c247299753f0f5f65e8560782cffe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/drawable.hpp"
+          },
+          "hashes": {
+            "sha-256": "e1c18c06acbe8bc93e7644da7f3ba28cd3f0d1898a7f12ceea25957dabee7827"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/primitivetype.hpp"
+          },
+          "hashes": {
+            "sha-256": "8732876aada3e36362d1a61aeb835a6874b95fe86cc099a7a5d2e6a6a238702f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rect.hpp"
+          },
+          "hashes": {
+            "sha-256": "ea3394e920b85cb5579b73421bd7ab51b6f0aa5eb6e9d0311870ad81b59efe64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector2.hpp"
+          },
+          "hashes": {
+            "sha-256": "d4150c93bcced4c3a65dbb07403c9ffe7e9ccfe9330eb7a09f5c0c935d54678a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/angle.hpp"
+          },
+          "hashes": {
+            "sha-256": "c60b2fa92da017c136eb07fb5a66f65aa39034c4a1cea475be85318ffc42bd56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/angle.inl"
+          },
+          "hashes": {
+            "sha-256": "57b374420e2431dd8d502acc7dd12663eab3f0db4c88ed81cbb244850b71a564"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector2.inl"
+          },
+          "hashes": {
+            "sha-256": "e6e7a91a34adfc131809ff0a19191b948bb079ea0b93bbe361807c1c51aed5b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rect.inl"
+          },
+          "hashes": {
+            "sha-256": "d9c590898d2f7be3a5b5b5b31b218fdb8f736c926f697120964cfe69baa5a223"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/renderstates.hpp"
+          },
+          "hashes": {
+            "sha-256": "5137f47cd30f5c68e010cca9a67de8591077a0ad107093cbac5bc72adf621cb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/coordinatetype.hpp"
+          },
+          "hashes": {
+            "sha-256": "b483e92942471295e6628a3107aa11d0c87d43b8717cc0c98c86dd7ab6273e77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/stencilmode.hpp"
+          },
+          "hashes": {
+            "sha-256": "91057b46a3990f8f3c565c6ec0b843d13ad88e3219133edb2d78a3b8b8c45ed6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "0962d131e6b98481bd5595797fdc841d273a1434652217545daddc4e261c811d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transform.inl"
+          },
+          "hashes": {
+            "sha-256": "1f460d7cf3dc6d2b74ba549d870d4ca0a6aa129ffcb74b72f05b342b06f0479e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/transformable.hpp"
+          },
+          "hashes": {
+            "sha-256": "6057fb8364f7f4b5d3abb67f6d96669965cf7cf7caf230501d5773761e2f3948"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/vertexarray.hpp"
+          },
+          "hashes": {
+            "sha-256": "5d2853060b22d9b77bee887de8fdf7a4be227aeb581a9c2a70e39d45b70c10a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/vertex.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6bd3a255e9d48f0f161784598ea22e2afa75f883d64eb74928f00fdbe1b95bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/convexshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "22e4af5af965c95847001d2b5615ff87bbfc5b417910d6a8f75a4d4d58f4f79b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "cb9201ccd271999d7d35ad7379ce564be34ee734fe561b4a4782feddc587db5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/glyph.hpp"
+          },
+          "hashes": {
+            "sha-256": "ae13e168041bedb58b704a083c40bb10a03970de278aeee583059dca7698bf97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/texture.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6b1fda83787371a3b27cb68c8013830dcdde497c39eecb81071b78d03ef727f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/glresource.hpp"
+          },
+          "hashes": {
+            "sha-256": "1de76fa184c086ffd886e4b6533dad712854b0bf05761020696ec935e9a8bb48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "a52d045875683fdf02f9cfdf5b4743dc5ecc3d94dc42b7e148687c4935009bfe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/image.hpp"
+          },
+          "hashes": {
+            "sha-256": "ca57f46dde39561642692491c7a2a3deae3ce3f6f97f9b02bfcf07fe8bef5238"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rectangleshape.hpp"
+          },
+          "hashes": {
+            "sha-256": "9175529af555a02193283401165168b64a0675259e9cf80e9c7827927de11e28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rendertarget.hpp"
+          },
+          "hashes": {
+            "sha-256": "ab1c5c39f44446486871a646515dbd826dbad48ef7375f6b13000397dd98ab3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/view.hpp"
+          },
+          "hashes": {
+            "sha-256": "4c7b3ac8f976a521691573843b1ddd0eeae668a60606a6b52caee2f0c122ceab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/rendertexture.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ffa250ba4917eff78ef9d771e0a9fe32e6e5cb334b5c8cf3742d3163557cf1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/contextsettings.hpp"
+          },
+          "hashes": {
+            "sha-256": "35f99f7a38311fc8948a1250e8e48d81ebb90a033f885f2cd608a7ed9742e79e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/renderwindow.hpp"
+          },
+          "hashes": {
+            "sha-256": "cd6e0765110fe311ac62192104ec35622b786ac55d982c18b395672040b802e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/videomode.hpp"
+          },
+          "hashes": {
+            "sha-256": "b2d80105a09adc8a3f483ed287840ee12fa9917a5a634f6e420f5cb7cebf2b5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/window.hpp"
+          },
+          "hashes": {
+            "sha-256": "6872b7d0a81c85d09b23d0519dc242a7ccf896e2ec8df9d4cbdaf59a5e8316ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/windowbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "373128cf4d11f2605e255c1a193c6d1daa3876cee3a40bb74e4421711273d2fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/vulkan.hpp"
+          },
+          "hashes": {
+            "sha-256": "b849b0e9d2b92ab72befb6293bfd58ab9d0d799a462905cf3dc5000e728a3c56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/windowenums.hpp"
+          },
+          "hashes": {
+            "sha-256": "695a4c9a9fb9407b2684f2109bed484f8f08052c1be50b890ad769f5745b2de5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/windowhandle.hpp"
+          },
+          "hashes": {
+            "sha-256": "bae4c277297c45193d508407694c038824ccd18f0ff3b4eecac44cfc8a2fc029"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/time.hpp"
+          },
+          "hashes": {
+            "sha-256": "8c798c59ef0a117b61a7e637a0e18628ae298d009a24f49ebdf11ca16484ad90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/time.inl"
+          },
+          "hashes": {
+            "sha-256": "9ef47b19e688e25465243adeca0198241190c15786756a19efdfbff74733e0ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/windowbase.inl"
+          },
+          "hashes": {
+            "sha-256": "30ff8500ff5d84dc0fd47ac0410f8f4f3519e42166f3b6fca4b169c15bb7b124"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/event.hpp"
+          },
+          "hashes": {
+            "sha-256": "9974a84dd58a6139119652b34eac6c56c4b07f3a2bc793f6149bade7500de1ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/joystick.hpp"
+          },
+          "hashes": {
+            "sha-256": "869cf94594db469a4511c46209b5d9d701ce449d97bfdf06ae4b0f55043836a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/string.hpp"
+          },
+          "hashes": {
+            "sha-256": "a0af2d63432eeaef0c8b8c0a7db74b1d35bbbe7d0abee598d9e1cedfb24c3747"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/export.hpp"
+          },
+          "hashes": {
+            "sha-256": "f6cd0fd0cd8481586b7bfa8bec0236ff7bf11472f32c38a4c956a5293aa5aa1d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/utf.hpp"
+          },
+          "hashes": {
+            "sha-256": "104d7615d5a9a9bbbc28fe1be9d4d8c99b8bfb13b466ccd7b0f61803ace58379"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/utf.inl"
+          },
+          "hashes": {
+            "sha-256": "eed827ff080a7bfb8b9406fb174e79e0cdad48eb26555f49beab63779a9abeb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/err.hpp"
+          },
+          "hashes": {
+            "sha-256": "c25bccace6314a8bf12bcfb277547a619bbac4dcc5cf1a5f16e97d128c250333"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/string.inl"
+          },
+          "hashes": {
+            "sha-256": "f16c400d85c5b8cb6be41edb65df8a7d49048b732e05584ca6a5ebc28d92cd6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/keyboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "c47d525867300fabdc6b75901a8d5aa316f674657fd6fa1eed295089fa73caeb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/mouse.hpp"
+          },
+          "hashes": {
+            "sha-256": "75e0a689c80313a1f9fbd1ebe925c4e48ee6b6ae52ad5c6334f403ef23428211"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/sensor.hpp"
+          },
+          "hashes": {
+            "sha-256": "24e186bc683fd1cca654d1866bf9bdb8e18cb7f110b99f4065eacdcc42a8808f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector3.hpp"
+          },
+          "hashes": {
+            "sha-256": "51d7281c84de2e07d47f51681e9a4987761d34ddc3915ecaa914ffae2d985896"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/vector3.inl"
+          },
+          "hashes": {
+            "sha-256": "59aacdb0ab5c46e1afafbe25160e5749511fb255864a4b045c4a3227116550f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/event.inl"
+          },
+          "hashes": {
+            "sha-256": "380555e7dfb065a68d534d044085468030a540510ca203014360bc1d92a5c743"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/clock.hpp"
+          },
+          "hashes": {
+            "sha-256": "6b2ccd1102d41a5aecc4ee312514f2f7e812d218993fdf04ab5e2e63ad9d1433"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/shader.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e5e37adc6f451d9481c67a9dbe0cbf00b680e85afa0fbfe9d8c7d218d1ba94a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/glsl.hpp"
+          },
+          "hashes": {
+            "sha-256": "e63b77c33e4bb350f57f3c162ba96c75f0504c5ab3a10faaa6695ec3f2b3d3d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/glsl.inl"
+          },
+          "hashes": {
+            "sha-256": "e1333ad7be81c2b0633c07f3d4eec6bc66e1d48c6ed5b5b51057d018c51c03d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/sprite.hpp"
+          },
+          "hashes": {
+            "sha-256": "63da5cc4e536503d72001696acc62445dee847d479dfd4aeed9ed8e176d055a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/text.hpp"
+          },
+          "hashes": {
+            "sha-256": "d4ddf7273e3f0c928a746f6eac3e24eb90d519e45edd6a0b61bb6dba75178cbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/graphics/vertexbuffer.hpp"
+          },
+          "hashes": {
+            "sha-256": "d7dafb738999dcaf3213e1b64ac0068b7c4390f32782ad529db0f65db522260d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window.hpp"
+          },
+          "hashes": {
+            "sha-256": "7c9c9048ae75b3784df674779efe6c077ee02a9301ae333690879434b72a91c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/clipboard.hpp"
+          },
+          "hashes": {
+            "sha-256": "535ac9967f0cf673547704291cb501be9cc168b7e8537d267c829e8700bf79da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/context.hpp"
+          },
+          "hashes": {
+            "sha-256": "083fafd3049760d3c2001b0a2fbc6041851af3548a7c38a0831c4fa404ded047"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/cursor.hpp"
+          },
+          "hashes": {
+            "sha-256": "f31b7ef548839392106ef236983dfa73fd62246d3fa3a4302d91c624cce18934"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/window/touch.hpp"
+          },
+          "hashes": {
+            "sha-256": "b47c0a64f5b71a40f3577d88cd2e70fa7bf31879177b9a901637001b4da4a212"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system.hpp"
+          },
+          "hashes": {
+            "sha-256": "85e05e8a87c3c1e888650ebad1353be8473e2889bf317836bb9fa848e7d0a9c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/exception.hpp"
+          },
+          "hashes": {
+            "sha-256": "8781fe409d17ecdd73c40564469640859d747b889a23dd5615558497ed9eadc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/fileinputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "1d10fb772ee8d8ab999afb760642e95eec51855a3793a93897c8911396fd80b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/inputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "7868e1574e2f284d267dfeed0ec581ae29cf4dc55dac0f27a4e80967ca4316c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/memoryinputstream.hpp"
+          },
+          "hashes": {
+            "sha-256": "e8298edf34bdecc3a1ba3627e36a2480ef4a72cf5afdbe3410790f25f117b29e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/sleep.hpp"
+          },
+          "hashes": {
+            "sha-256": "2908976b38f6338bad3406049446ffc312410a7092f852dda8f0dcfbe6981aa0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/timeoutwithpredicate.hpp"
+          },
+          "hashes": {
+            "sha-256": "f88e2323d5ebd74e3c9884feb402d8ecd99fa2a05913342f317533106a16ae65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/sfml-3.1.0/include/sfml/system/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "82117f9811c7d65cbda3bbb4aa36e04042e04b11ad75297dc6090e9834e621ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/map.h"
+          },
+          "hashes": {
+            "sha-256": "499a3d6b91ecd11e28a248a689a0c7924049b30ecb80477742f5069f6e0039ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/guard.h"
+          },
+          "hashes": {
+            "sha-256": "81529a650bbc9be03553d6087cfdc9c76204adad9c4acc69d68af67ec4246334"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/enemy.h"
+          },
+          "hashes": {
+            "sha-256": "99840b07cacc93ee0808336256038ba07e41a1730e7c74eebfb8e8db6790891a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/神秘大学生专用文件夹/c++程序设计/c++大作业/cubeattack/pathfinding.h"
+          },
+          "hashes": {
+            "sha-256": "7d1f77f43524b51b26d337c57ad5bbc75bd551990eddf1804753d244bb72aca4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/tgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "1bd70c457a4d6beb71234244420e9a0aceb8246c2fb4fa37e6a72587d4327d22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "7faf9ac4072632a7234008792da35d563aaad02ef0fb60da4040c0f47992f8c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/animation.hpp"
+          },
+          "hashes": {
+            "sha-256": "8ea6f2b2c5a036377e1ac194c624f68f9d4da8617b1705fe91a05f09f3d75d2a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/layout.hpp"
+          },
+          "hashes": {
+            "sha-256": "25492d5ec9f2be5cd8c673b5c438a032029e270d21011c2985fd9fbc837638b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "a8e5a9c0922594a65d96718b89a462012ac95bf52339f55896b56d72f33dbb85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/vector2.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a144842a978b197d7f592cba625028e49c53f4c5d29143c9c681a68a193a6cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/string.hpp"
+          },
+          "hashes": {
+            "sha-256": "d16399aeaa447a095600c682aaeed4b4806dbb532293013aee71fe5665d0914c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/stringview.hpp"
+          },
+          "hashes": {
+            "sha-256": "7a5085a24cfdeae62cf86ead8d55da1906503c5cf0c0fc8c5173b0340974d9c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/utf.hpp"
+          },
+          "hashes": {
+            "sha-256": "2f002426e023aa0a3d330a1978dafb666a2ab4fd876afa1f3a2c91810084d337"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/absoluteorrelativevalue.hpp"
+          },
+          "hashes": {
+            "sha-256": "81781d0031a72c8a82c031fbaf4be7a9c8e38ee76a8bca6e0df854a5d76752b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/global.hpp"
+          },
+          "hashes": {
+            "sha-256": "39e1364ffe3e6203c77ee02702e91938789cc7c133b12268324026cccfc26c67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/exception.hpp"
+          },
+          "hashes": {
+            "sha-256": "d520d8449ebeb97a095a5031057504090386172b0540514e47017c5763c00a01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/duration.hpp"
+          },
+          "hashes": {
+            "sha-256": "92e6bd85dcac6b078a123640ec772b36997325dc8449d891900cd0884e1e15b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "bcf8fdaf2ab2fc89fd2f2fd7d5c8a4d5dd9c5d918272018a673900f01896100f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/rect.hpp"
+          },
+          "hashes": {
+            "sha-256": "35afac92aeddd1b9858ddd9694355747a583acf1a44319af6e7cdd2ec68e4377"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/filesystem.hpp"
+          },
+          "hashes": {
+            "sha-256": "ff859b567b79d1948c4ad6d23ad32a75b41be25c7ee3fad2781c7a43b21c4134"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/cursor.hpp"
+          },
+          "hashes": {
+            "sha-256": "7274c38e5805352f64e90fc40b07ad48cf89cfa6f284f5f7b8ade118f667e3c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/timer.hpp"
+          },
+          "hashes": {
+            "sha-256": "4f05a5a31fe381f91916f4f498be8b1c88e0c47583914b1ac810f52b7ac48360"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/optional.hpp"
+          },
+          "hashes": {
+            "sha-256": "fb199330890a2cf2d8042590a1599d022ef8943d170a616259755c3328c13354"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widget.hpp"
+          },
+          "hashes": {
+            "sha-256": "6a6d9306becad5269a06cf53877229039a369e88f7e5b6b7232e9a2d5d38113a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/signal.hpp"
+          },
+          "hashes": {
+            "sha-256": "81889d60c2ce660561ae107fd608c5ebef03e64f2ee5375ea936908dc622ef1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/color.hpp"
+          },
+          "hashes": {
+            "sha-256": "e37d7660b0d285555eb5f60d79c904266436cb9f9e96bcd113395d9002e6fc1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/vertex.hpp"
+          },
+          "hashes": {
+            "sha-256": "7bdeccda6f7532a8422f390f4a0b03d9ba786bf7b00f8cd1aea5a69f7ca745f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/sprite.hpp"
+          },
+          "hashes": {
+            "sha-256": "67086cbbb31822fcaffebd8906e554b8fe7f33240fd49e9a362027129177632f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/texture.hpp"
+          },
+          "hashes": {
+            "sha-256": "058899c5e561cff7be2858687bc96981d158269270fc15d3de4a473d022c935c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/texturedata.hpp"
+          },
+          "hashes": {
+            "sha-256": "106a4cea760d7ffca2391a64b68e5e2e23326d19859b4bd8d16c60754716604a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/svgimage.hpp"
+          },
+          "hashes": {
+            "sha-256": "b4956c591211737f9a5dc3e7624af8ecaeb2916cb26563190d7a622cfda3bc1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/backendtexture.hpp"
+          },
+          "hashes": {
+            "sha-256": "b723a1bb8be01e1af786ddbc88fcd333b8dc9c6b22d2045fff5c6e9e1184e843"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderstates.hpp"
+          },
+          "hashes": {
+            "sha-256": "713549bde22de1b93782d0579aaae77efdc49fb0436ee9748ade20436e18e1e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/transform.hpp"
+          },
+          "hashes": {
+            "sha-256": "3a8667b9ff70c7b757d9e21dc91595ec6126f13232254d3c2c8ab2daf9cd1afc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/copiedptr.hpp"
+          },
+          "hashes": {
+            "sha-256": "725c862220622030e1cbddb0f923ea7f7765d8f885f2c30ff2a86d7e2dddb703"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/event.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa807970b332a982b52a1732989c9fd4968a400af74f6011947fa399faff96ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/any.hpp"
+          },
+          "hashes": {
+            "sha-256": "b984f1a7cef7311b26ff64c7d4c67c0a7795dc5b884c25825ba091ac963e798c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/backendrendertarget.hpp"
+          },
+          "hashes": {
+            "sha-256": "4b87b898964b273b85cf7a2a25ffd2db70c2bc8217341d4271c96f3255994d78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/text.hpp"
+          },
+          "hashes": {
+            "sha-256": "e184089bb06699f74c61bc7462caf15e4103849abc57a87ee6a9de1c507248dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/textstyle.hpp"
+          },
+          "hashes": {
+            "sha-256": "ab8f01c63efa87e4e41b8b8aed1b1c070cf7e0b01db5a6237eeebb3328d453e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/outline.hpp"
+          },
+          "hashes": {
+            "sha-256": "284c8a2899d50a56fcf694b4d7293338daa3f286773e40921536990e2360aaa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/theme.hpp"
+          },
+          "hashes": {
+            "sha-256": "98423ede15db81344b92306a1475d998627bd7c2bb64d6615f117acc3e3c8030"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/themeloader.hpp"
+          },
+          "hashes": {
+            "sha-256": "5251bf8ec8a3046294e77c4118805214f5c375292949e650d7b523f16ce1d4aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/dataio.hpp"
+          },
+          "hashes": {
+            "sha-256": "06140d2e02c16f6eae1ff1f6a6623c78855812ddd2dc2187e72bd3040b1bc459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/widgetrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "57a1d3376b39b4b59f2804aa8b0659a7d272198f5064c00737b6b14b0668fa13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/objectconverter.hpp"
+          },
+          "hashes": {
+            "sha-256": "90907f88caba18f589ec2a9bce1c5fdd8c373bf6f1d28cbff6729c681ba32505"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/variant.hpp"
+          },
+          "hashes": {
+            "sha-256": "2246bb991d0c76b647759dbec90b066782b5795a4911b3105975067636b109a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/serializer.hpp"
+          },
+          "hashes": {
+            "sha-256": "30e20132ff1c6e59d9a2106c9bf0c13b212e68fa7146162f4a07df0972a0ef0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/deserializer.hpp"
+          },
+          "hashes": {
+            "sha-256": "36a530413ea34b2702500457ad953c380c03839b192919b29220323e4e11d5da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/tooltip.hpp"
+          },
+          "hashes": {
+            "sha-256": "8a9cc84524de75780bf28ec9989b6a2fead7d9fb706a3d930607f403bc9ccc1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/container.hpp"
+          },
+          "hashes": {
+            "sha-256": "7721e1a0e1aaadc69cd589b7960fad3551e8c0626e71b09a87537a1047abff78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/subwidgetcontainer.hpp"
+          },
+          "hashes": {
+            "sha-256": "792fe02ce18fa118040de0ff1437c166e4cefbf4d67b217dced129513e3cb152"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/group.hpp"
+          },
+          "hashes": {
+            "sha-256": "0b252ef3aef6738b84e0567c9557278dc7d5f48d6c51ba44f055c731ce3395ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/grouprenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "f52d79dfa97ed8c0e15755fe0718a5ea5f59b1383ef0fb3275e700e98a04d9a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/copiedsharedptr.hpp"
+          },
+          "hashes": {
+            "sha-256": "f1f6289d759e91dbd7b2965def2923e0df74bb2cf1961380871f1ac2c499d92f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/window/backend.hpp"
+          },
+          "hashes": {
+            "sha-256": "6200b25cdbc7e2c24a3e0dbcdb8c49c7d094a0dd4aebf4905581e4f2d6e759ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/font/backendfont.hpp"
+          },
+          "hashes": {
+            "sha-256": "a2807f38c5bba0a9ca0909455c16dae9c619f380611e66620b91b8f2578676b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/font/backendfontfactory.hpp"
+          },
+          "hashes": {
+            "sha-256": "54ff2258f369d759d1347b6bdbe00c204e392375b37d9a3f0b4b87716d333a37"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/backendtext.hpp"
+          },
+          "hashes": {
+            "sha-256": "16152913f6da97b3b9eeb731c4df13117d86a6c7ed1b66bbb8fe5128fb4be05d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/backendrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "d0f7a97bf20af63e6f594d6428ec151000143bd13d3a7b385b7fd980d0bd18eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/window/backendgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "c5131891020e3dbf2df9212e64052eb0b3a032c2646e8e26da8258eed81eea67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/relfloatrect.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6e36f6a0b8b0d66d723f4a853302e269fc3e33623274b28add4b637b132ee14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/twofingerscrolldetect.hpp"
+          },
+          "hashes": {
+            "sha-256": "80bf3cd4ad8686a35c2aa1a983a4e5135ddf75d6cce8444e7685f5fce475e88f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/loading/widgetfactory.hpp"
+          },
+          "hashes": {
+            "sha-256": "23c6f0eb080f3d12734b6d9a9c267fced73b0ca675a8ed95abb6893dd1bb99d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/allwidgets.hpp"
+          },
+          "hashes": {
+            "sha-256": "be3bc4110421861bb6f927d4ef4be4bcccefabe55da6cfe8e913723a5d7047e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/bitmapbutton.hpp"
+          },
+          "hashes": {
+            "sha-256": "1abfef5beea3d839d8535d38ad8aaa230498bac070021f7a6b0d9266c00901a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/button.hpp"
+          },
+          "hashes": {
+            "sha-256": "d2212711bf2a74cdcd8fb7b49ad9dfe00786f863f27850224408383cd17b4108"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/buttonbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "aab9f3a1d0fbd61c5a90437f45428f2f0cd4c965e3c58edfe8e355d03edd3033"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/buttonrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "04814874a921e6b6281e944e19fa1a528f818af893572ed433eb558f48353dfb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/clickablewidget.hpp"
+          },
+          "hashes": {
+            "sha-256": "2e69fa0b840782d9a87d13cce6dda2ad63869ced5466576ed3b5fcb86503419f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/components.hpp"
+          },
+          "hashes": {
+            "sha-256": "1d21588d27048e1cc4727b2d8a664b174a611e3fff419e2ff203d764cd24b405"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/chatbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "0c61166c15b9240698e41f6ba920517d97473993d59a4210927955cb4d83b3a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/scrollbar.hpp"
+          },
+          "hashes": {
+            "sha-256": "d89eb1beaa800d9753a837b699d693af5f6f35592303ec5e9cd0aa2a83c7c8b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/scrollbarrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "285bdcc5497bbcc6fc1e21f0b566c17732b5efe330ec2cd8ce1c0af579bd7af5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/chatboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "c6506556832f6ad514438d7cb64446fb1a8ce20b9a5815cf5d4ae3451f1447b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/checkbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "5d0139977bd79fd6455582a56be90abbe602924e0ed59d3e06f883ec2d3154a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/checkboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "1deeeb5dacfb970f9d26392a5b50459359ed0d87331437f1c398c17980749c6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/radiobuttonrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "726888fbe400afc784b4f7262a998a2096fd2d8a6d1510babe3ffc370f605af0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/radiobutton.hpp"
+          },
+          "hashes": {
+            "sha-256": "5ed6470ed385e69f0874523380cc3073c68e9637bc68c65e5ad62512cc22d7c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/childwindow.hpp"
+          },
+          "hashes": {
+            "sha-256": "d1453cb0ce9d98b2d00de61a3422edbe40ce3376f57e0306c03668a5ae63ca97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/childwindowrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "81752554f5017e0a5e784c432f9f8cd76cd94083f766b804c5733b91423fe58c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/colorpicker.hpp"
+          },
+          "hashes": {
+            "sha-256": "e9ac59c05677d0aa0d124ea92de4a6a5f83ac67fb12d0cc44358d5f9ae5aa81d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/slider.hpp"
+          },
+          "hashes": {
+            "sha-256": "f38b0530c49a5b87cd466824a41b8974af91be30d923578ec5f56d8f3a28b4e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/sliderrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "882769a635d84fcf0f48c45d6a284aaf9785b43b4d8ba76a817ba7d64a1c767f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/panel.hpp"
+          },
+          "hashes": {
+            "sha-256": "f39440162371983118f795c023b17fc0c0743aca207327d617bc38146630169a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/panelrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "001e32533b52cf89dff077f894ca4bd7ac67a290e4251c76cb7ceac72f779679"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/colorpickerrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "7571eb97d753ce9330ec0863dd0ff91de6e60d26d5593225ef2060606a1bff82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/combobox.hpp"
+          },
+          "hashes": {
+            "sha-256": "13d0288a389fb875cd2dac0904fa123e9aadd03d81e0a71f9e0bead0f6b068b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/listbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "13330fb72f557f7f4080ba7190e320496527f36e8a010d175453f2aadd64c1da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/listboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "e3f8149bf909039a7a24e08719ad2cd88d8269fc03f071d976281bfa2205f5fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/comboboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "78eca5cc6e2158c4ebc9bed08955894be6763f8e7ff1100060b611d8b905975e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/contextmenu.hpp"
+          },
+          "hashes": {
+            "sha-256": "d617a4cad1a27fbfccabdc6e1ef991ab98ad1e54fa90191ed825c8669044e42b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/menuwidgetbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "d8b7461fc5029bbbf1dddfad8d2e5431aafcfb92e512ad81fc544faf24c68b6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/menuwidgetbaserenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "5f2e35ff84d425095a25b613dd748325f139abc8eba4d05d7db3bc64a5e5a05a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/contextmenurenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "bd1ce2ece5a280bffabc02545bbbfa69f7fe7c592ffdbe03b4fe2271e1e0bbc3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/editbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "1b567277eeaf0811764354eb3570aa6f356e52ba2e270b9419b4a12fc2e01a97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/editboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "0635c6f0546d4bd88a6fc274f3b9bca820d0849e136dcd38cc464c4043667e3e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/editboxslider.hpp"
+          },
+          "hashes": {
+            "sha-256": "86a677b2de322cdfd6cc9c9516ea95ab679c137133d28a0c3ae60f583afbed20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/filedialog.hpp"
+          },
+          "hashes": {
+            "sha-256": "468436fbfeee8f979b080447b7d26489791bfeda6fa9c6d812f219bd04bafbcd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/label.hpp"
+          },
+          "hashes": {
+            "sha-256": "4c1910d1f4a7eef636c98fc530c98aa42edeefe6ab445c471d8a3d03009abd88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/labelrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "c68a1871b94803fc9ab7ada157fdb93b5e5da96ef32a2a496e3a8001e7d2a8b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/listview.hpp"
+          },
+          "hashes": {
+            "sha-256": "1faf40e014f6890e35adee8149dde5559a48efa7ed18d7256e60ca67769490c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/listviewrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "4d38ce83bfb4cfb97c8209a2b575a1632256151b8ec20215e8518034417f9aca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/filedialogrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "6ba9ee856ce2177afdf0f5039f5507cf170ad167a709dd006e2983e32f573e33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/grid.hpp"
+          },
+          "hashes": {
+            "sha-256": "03c69205f6c74a055ff7d6cde2525c99ddab4c73cdc1ddd2636bb368959e106f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/growhorizontallayout.hpp"
+          },
+          "hashes": {
+            "sha-256": "524fa8714978808526d42c8714e932c95a278560e901ee8aa4121f6b05ab59bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/boxlayoutratios.hpp"
+          },
+          "hashes": {
+            "sha-256": "0df214e23b8af56d7fc71b68362836e6fbcead4f2b847c2a4cc4d777ec479697"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/boxlayout.hpp"
+          },
+          "hashes": {
+            "sha-256": "cf735bc35aa00303f02543936d15353219a725ac71830de0e7eb102fd6b8e4b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/boxlayoutrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "ef8baa53af4474d0f6f4bff53a2aa96d0516dd6cefda2216f84d5fae097f0e67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/growverticallayout.hpp"
+          },
+          "hashes": {
+            "sha-256": "6f8678f32d7065b14ee852e8e5ccbb6d3c65ed35f58128ee7cc86f7603892ba2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/horizontallayout.hpp"
+          },
+          "hashes": {
+            "sha-256": "3f842be24dd03b05a3793cd9431a45dca995b0faf13639222eb295510f22a8ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/horizontalwrap.hpp"
+          },
+          "hashes": {
+            "sha-256": "21f20ddc9dde8a5a6365a073e5ad667045aa8c13aafc174dd22ebcd6888149e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/knob.hpp"
+          },
+          "hashes": {
+            "sha-256": "9e43f5a15865ecdccdebec99c4f8badf540471210d787e40920aca8b4a17dcf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/knobrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "2314824372fc545ecc344ec7a49166b8d27a8fd121616b4dd27d19f02a91ffcb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/menubar.hpp"
+          },
+          "hashes": {
+            "sha-256": "580783db58a6c276a5b0a5c7321eb5b68418293c7b0981f3274254bd0edb38f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/menubarrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "3d6cfed7c06764a1f8c5eb1a3b181ea7db6c39238834ff757e73961c8b14d602"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/messagebox.hpp"
+          },
+          "hashes": {
+            "sha-256": "4e39819e553f344a7f9a608f1a15f1eeb7980f59936f04a128d6eb7ca61d212c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/messageboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "dceb96ec271071d4d9e6e64f6ec57e8e5bf80a5e5db711eef60e203c3ab04bf1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/panellistbox.hpp"
+          },
+          "hashes": {
+            "sha-256": "686d874126f003205cd1b97b5f27d2e1b7980fb45b03a00b447dae7180fbf3fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/scrollablepanel.hpp"
+          },
+          "hashes": {
+            "sha-256": "f8c28177ff674ceec1ab46bf364fdf81d0bc13505c8084e94f81480d365d83ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/scrollablepanelrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "f1ab2759165984a1309f8fe4b6bd44bea3024307789e7f41de4fe43ce78500a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/panellistboxrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "978a7b43a552be29b6ddbfdafe2a56113ce0e73ed1802820a0fc49d16fb8f1ca"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/picture.hpp"
+          },
+          "hashes": {
+            "sha-256": "bdd31acd4578a1c6cb88ef8743a1976dafb1883cb21901ee56afbd004c83e455"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/picturerenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "205f30fcaafa0f5e617a1e2d7f587275c10fde11d5108f6682dc31e73a5c1ce4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/progressbar.hpp"
+          },
+          "hashes": {
+            "sha-256": "5670327347aa959822ac00aa0459aa82b0910ef42c796447093f3060b4f5af6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/progressbarrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "b7c9b8dd538d80f16d1f274d0898d378f7e5e7fa2834c1524e2c0ebb5c04b1bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/radiobuttongroup.hpp"
+          },
+          "hashes": {
+            "sha-256": "c76782c0cf4fbe5aa90e33c9540cf31e16c0667ece4c015699a089d8e1f2989c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/rangeslider.hpp"
+          },
+          "hashes": {
+            "sha-256": "24984d3ac68513334af57e06c1b0155811c3a7cfce281734528d9a7846897e53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/rangesliderrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "48bd2d8452b72e8127d051b900ce392d9d7c8581eb8a5f1b173b218eb15cb57f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/richtextlabel.hpp"
+          },
+          "hashes": {
+            "sha-256": "8b902f035eedbdb0f76a73f17f14827e47b12809da61f4c1bf8c7b65b08ccee7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/separatorline.hpp"
+          },
+          "hashes": {
+            "sha-256": "daa03019ae03d4cc38085f5024f5787dd0117f087a61eb3c970bb9d4958f7e17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/separatorlinerenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "4e82caf9f181ed04d4cddb72740f955ab496b25113f2af8785f11167e9a84888"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/spinbutton.hpp"
+          },
+          "hashes": {
+            "sha-256": "83af1fc591b43d99e8daaa6b284ee302f436615d2e8a3723d3f73fc89f87cda1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/spinbuttonrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "c06ac21646881c99db022ca9aa8fed784c5dc18081635709d8bd3d1704935c0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/spincontrol.hpp"
+          },
+          "hashes": {
+            "sha-256": "678361cd43ba29f5f3cb7104ba60a7938fd233eba1120a00ad66dda4b21b4206"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/splitcontainer.hpp"
+          },
+          "hashes": {
+            "sha-256": "f98c846fc0cd0f60c9e8b093c2c9b6caeebe8480fe1267c72e6ff31237ba7ac4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/splitcontainerrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "2c9c7a03a1eb1fd832c07320f7df24da9914b8c4fbec90ab2289ed50cccead2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/tabs.hpp"
+          },
+          "hashes": {
+            "sha-256": "fb587dff3e003519ba1114c655a80fe4065f1f27e76a5507f68869b523eb95c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/tabsbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "9df5beec4ea54794ffbe08c6a715e04a5642b6ac73fe62e3d7ebca1b61b456e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/tabsrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "a451106f98ff066b74575390194d067db93edc37bd3af2c48ec061e1f973cf7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/tabcontainer.hpp"
+          },
+          "hashes": {
+            "sha-256": "d82b9430428cc4c969345dda95bc0061459143e8977a3be35fc5a7c44aae2a88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/textarea.hpp"
+          },
+          "hashes": {
+            "sha-256": "e11b71633f4c0b8cc9282b112b71e80cc418a7981a22b7ff4f2fcb087b9cd171"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/textarearenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "370a570ba232d3b0e5f123b3b2dc6ed5e3d23d5d4c482aa4720c8303ff755cb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/togglebutton.hpp"
+          },
+          "hashes": {
+            "sha-256": "ad1809b77dfc1aa7eef7a1d1cb0814f667a4d1a1407e397892afc9ee12b9d275"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/treeview.hpp"
+          },
+          "hashes": {
+            "sha-256": "fa5d810b18ae9fd8c41674ac395c1b5a4f29f45eb37761e092372626aa038107"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/renderers/treeviewrenderer.hpp"
+          },
+          "hashes": {
+            "sha-256": "f038e29988abb76953d8d9404f870d119a3f5ba42a1a8da4404b7e1eeafb90ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/verticallayout.hpp"
+          },
+          "hashes": {
+            "sha-256": "9c74f3409d57be73b32df0b1b8868fc6c3abfcf82baf0d7d607fec01d7b9369c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/verticaltabs.hpp"
+          },
+          "hashes": {
+            "sha-256": "723524515736f6fc4a3cd8c4e32ff95e390d222ab047053312e5a47dd572941e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/sfml-graphics.hpp"
+          },
+          "hashes": {
+            "sha-256": "e463a8f9cfa72f7b189a5b7c2613aa0ddce1841e0e9c3fb5e135851c092eec7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/window/sfml/backendsfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "5e066983fbac3a803f5e7f984245bc5ada86ee89cc67c6db82f5243a453e6dd6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/window/sfml/backendguisfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "bdb039b1f7b537a92e8db313edb500ea09e2c137419332dbdb80796b1b0ab525"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/sfml-graphics/backendrenderersfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "a75b4c954372226ea18531eeebb7775f4d57e5adbade094eca6705c6ccdc10af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/sfml-graphics/backendtexturesfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "1a01c853aa8c492f18d123632f20b1cb889d4bd990f312800defaff50ed79a5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/sfml-graphics/backendrendertargetsfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "2ff6bed0be224acb8ac9d45da5ea8f5412cb6c2c7a069b8e092cfae0b8cd203a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/renderer/sfml-graphics/canvassfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "bfa5af70a60b892a2863bdfe00e53424b2fcaa7c6a7ebab4e6ecac2765130307"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/widgets/canvasbase.hpp"
+          },
+          "hashes": {
+            "sha-256": "e80c2ccc622cd8074a497cbde22af727e036994d4d362dafa8cdb6ab132968ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/code/tools/tgui-1.12/include/tgui/backend/font/sfml-graphics/backendfontsfml.hpp"
+          },
+          "hashes": {
+            "sha-256": "164dc32eb24847c102edc67f21214ae54ff09d1035dd81b131b00b396580d9db"
+          }
+        }
+      ]
+    }
+  ]
+}

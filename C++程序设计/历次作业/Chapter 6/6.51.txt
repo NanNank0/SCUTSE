@@ -1,0 +1,2 @@
+The purpose of  the default argument in a function is allowing parameters to have default values(if there is no argument provided).
+The constraint is that the Default arguments must be the right parameters in the 括号 of the function, and default arguments can't be used in declare and definition at the same time.

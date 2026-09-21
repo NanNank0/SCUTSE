@@ -1,0 +1,30 @@
+﻿// Ex. 7.17: Ex07_17.cpp
+// What does this program do?
+#include <iostream>
+#include <array>
+using namespace std;
+
+const size_t arraySize = 10;
+int whatIsThis(const array< int, arraySize >&, size_t ); // prototype
+
+int main() {
+	array< int, arraySize > a = { 1,2,3,4,5,6,7,8,9,10 };
+
+	int result = whatIsThis(a, arraySize);
+	cout << "Result is " << result << endl;
+}// end main
+
+//What does this function do?
+int whatIsThis(const array< int, arraySize>& b, size_t size) {
+	if (size == 1) {
+		return b[0];
+	}
+	else {
+		return b[size - 1] + whatIsThis(b, size - 1);
+	}
+}
+/*
+* this program sum up all the element in the array and print it out
+* 这个程序将数组中所有元素求和并输出
+* Ciallo～ (∠・ω< )⌒★
+*/

@@ -1,0 +1,255 @@
+//使用说明：点进某个视频→按F12打开控制台→将全部复制进去→按下Enter键
+
+(function () {
+    'use strict';
+    
+    console.log("=== 医视在线 自动上报脚本 ===");
+    
+    // ========== 配置 ==========
+    const CONFIG = {
+        reportInterval: 8000,        // 每8秒上报一次（模拟正常观看）
+        incrementPerReport: 30,      // 每次增加30秒观看时长
+        maxWatchAt: 0.98,            // 最大进度（98%视为完成）
+        debug: true
+    };
+    
+    // ========== 从URL提取ID ==========
+    function getIdsFromUrl() {
+        // URL格式: #/play?projectId=3739&courseId=5534&sectionId=28394&type=project
+        const hash = window.location.hash;
+        const params = new URLSearchParams(hash.split('?')[1] || '');
+        
+        // 注意：从Payload看到的是 courseId=17371，所以可能需要从页面获取
+        // 先尝试从URL获取，如果不对再从页面元素获取
+        let courseId = params.get('courseId');
+        let sectionId = params.get('sectionId');
+        let projectId = params.get('projectId');
+        
+        // 如果URL中没有，尝试从页面元素获取
+        if (!courseId) {
+            // 查找页面中可能存储ID的地方
+            const courseIdEl = document.querySelector('[data-course-id]');
+            if (courseIdEl) courseId = courseIdEl.getAttribute('data-course-id');
+        }
+        
+        return {
+            projectId: projectId ? parseInt(projectId) : null,
+            courseId: courseId ? parseInt(courseId) : null,
+            sectionId: sectionId ? parseInt(sectionId) : null
+        };
+    }
+    
+    // ========== 获取视频总时长 ==========
+    function getVideoDuration() {
+        const video = document.querySelector('video');
+        if (video && video.duration && !isNaN(video.duration)) {
+            return Math.floor(video.duration);
+        }
+        // 如果找不到视频元素，返回默认值（可根据实际情况调整）
+        return 0;
+    }
+    
+    // ========== 上报观看记录 ==========
+    async function reportWatch(watchAtSeconds, eventType = 1) {
+        const ids = getIdsFromUrl();
+        const videoDuration = getVideoDuration();
+        
+        if (!ids.projectId || !ids.courseId) {
+            if (CONFIG.debug) console.warn("未检测到课程ID，请确保在播放页面执行");
+            return false;
+        }
+        
+        if (videoDuration === 0) {
+            if (CONFIG.debug) console.warn("未检测到视频时长，将使用默认值");
+            // 如果没有视频时长，使用估算值或跳过
+        }
+        
+        // 构建请求体（完全匹配抓包格式）
+        const requestBody = {
+            courseId: ids.courseId,
+            sectionId: ids.sectionId,
+            projectId: ids.projectId,
+            videoDuration: videoDuration,
+            watchAt: watchAtSeconds,
+            watchEventType: eventType,
+            topicId: ""
+        };
+        
+        if (CONFIG.debug) {
+            console.log(`[上报] 进度: ${(watchAtSeconds / videoDuration * 100).toFixed(1)}% (${watchAtSeconds}/${videoDuration}秒)`);
+        }
+        
+        try {
+            const response = await fetch('https://school.mvwchina.com/shop/update/project/watch/record2', {
+                method: 'POST',
+                headers: {
+                    'accept': '*/*',
+                    'content-type': 'application/json;charset=UTF-8',
+                    'origin': 'https://school.mvwchina.com',
+                    'referer': 'https://school.mvwchina.com/'
+                },
+                credentials: 'include',  // 自动携带cookie
+                body: JSON.stringify(requestBody)
+            });
+            
+            if (response.ok) {
+                const result = await response.json();
+                if (CONFIG.debug) {
+                    console.log(`[上报成功]`, result);
+                }
+                return true;
+            } else {
+                console.error(`[上报失败] HTTP ${response.status}`);
+                return false;
+            }
+        } catch (error) {
+            console.error(`[上报异常] ${error.message}`);
+            return false;
+        }
+    }
+    
+    // ========== 自动持续上报 ==========
+    let currentProgress = 0;
+    let videoDuration = 0;
+    let reportTimer = null;
+    let isCompleted = false;
+    
+    async function startAutoReport() {
+        // 获取视频时长
+        videoDuration = getVideoDuration();
+        if (videoDuration === 0) {
+            console.warn("无法获取视频时长，请确保视频已加载。尝试等待5秒后重试...");
+            await new Promise(r => setTimeout(r, 5000));
+            videoDuration = getVideoDuration();
+            if (videoDuration === 0) {
+                console.error("仍无法获取视频时长，使用默认估算值1800秒");
+                videoDuration = 1800; // 默认30分钟
+            }
+        }
+        
+        console.log(`视频时长: ${videoDuration}秒 (${(videoDuration/60).toFixed(1)}分钟)`);
+        
+        // 清除已有定时器
+        if (reportTimer) clearInterval(reportTimer);
+        
+        // 立即上报一次起始进度
+        await reportWatch(1, 1);
+        currentProgress = CONFIG.incrementPerReport;
+        
+        // 定时上报
+        reportTimer = setInterval(async () => {
+            if (isCompleted) return;
+            
+            // 计算当前进度（秒）
+            let watchAt = Math.min(currentProgress, videoDuration * CONFIG.maxWatchAt);
+            
+            // 上报
+            const success = await reportWatch(watchAt, 1);
+            
+            if (success) {
+                // 检查是否完成
+                if (watchAt >= videoDuration * 0.95) {
+                    console.log("🎉 视频进度已达到95%！");
+                    isCompleted = true;
+                    if (reportTimer) clearInterval(reportTimer);
+                    
+                    // 可选：上报完成事件
+                    await reportWatch(videoDuration, 3); // eventType=3 可能表示完成
+                    console.log("✅ 学习完成！");
+                    
+                    // 自动跳转下一集（可选）
+                    autoNextVideo();
+                } else {
+                    // 增加进度
+                    currentProgress += CONFIG.incrementPerReport;
+                    console.log(`[状态] 当前进度: ${((watchAt / videoDuration) * 100).toFixed(1)}%`);
+                }
+            }
+        }, CONFIG.reportInterval);
+        
+        console.log(`✅ 自动上报已启动，每 ${CONFIG.reportInterval/1000} 秒上报 ${CONFIG.incrementPerReport} 秒进度`);
+    }
+    
+    // ========== 自动下一集 ==========
+    function autoNextVideo() {
+        // 查找下一集按钮（根据之前的油猴脚本）
+        const nextBtn = document.querySelector("#root > div > div.video_title > p.left > span");
+        if (nextBtn) {
+            console.log("正在切换到下一集...");
+            nextBtn.click();
+            setTimeout(() => {
+                location.reload();
+            }, 1500);
+        } else {
+            console.log("未找到下一集按钮");
+        }
+    }
+    
+    // ========== 拦截弹窗 ==========
+    function interceptModals() {
+        // 拦截alert
+        const originalAlert = window.alert;
+        window.alert = function(msg) {
+            if (msg && (msg.includes('暂停') || msg.includes('确认'))) {
+                console.log(`[拦截弹窗] ${msg}`);
+                return;
+            }
+            return originalAlert.apply(window, arguments);
+        };
+        
+        // 拦截confirm，自动确认
+        const originalConfirm = window.confirm;
+        window.confirm = function(msg) {
+            if (msg && (msg.includes('暂停') || msg.includes('继续'))) {
+                console.log(`[拦截确认框] 自动确认: ${msg}`);
+                return true;
+            }
+            return originalConfirm.apply(window, arguments);
+        };
+        
+        console.log("弹窗拦截已启用");
+    }
+    
+    // ========== 暴露控制接口 ==========
+    window.watchHelper = {
+        start: () => {
+            startAutoReport();
+            interceptModals();
+        },
+        stop: () => {
+            if (reportTimer) {
+                clearInterval(reportTimer);
+                reportTimer = null;
+                console.log("上报已停止");
+            }
+        },
+        report: (seconds) => reportWatch(seconds || 30, 1),
+        complete: () => reportWatch(videoDuration, 3),
+        status: () => {
+            const ids = getIdsFromUrl();
+            console.log({
+                ids: ids,
+                videoDuration: videoDuration,
+                currentProgress: currentProgress,
+                isCompleted: isCompleted,
+                timerRunning: reportTimer !== null
+            });
+        },
+        config: CONFIG
+    };
+    
+    // ========== 自动启动 ==========
+    console.log("\n可用命令：");
+    console.log("  watchHelper.start()     - 启动自动上报");
+    console.log("  watchHelper.stop()      - 停止上报");
+    console.log("  watchHelper.status()    - 查看状态");
+    console.log("  watchHelper.report(30)  - 手动上报30秒进度");
+    console.log("  watchHelper.complete()  - 上报完成状态");
+    
+    // 自动启动
+    setTimeout(() => {
+        watchHelper.start();
+    }, 2000);
+    
+    console.log("\n✅ 脚本已加载，2秒后自动启动上报...");
+})();

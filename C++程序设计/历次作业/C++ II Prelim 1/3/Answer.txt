@@ -1,0 +1,5 @@
+In my opinion, both of two questions are suit for Polymorphism and Inheritance.
+Because there's only one basic class in each question and more and more Derivative class based on it, like Professor and Fuprofessor, and they have the same private parameters: Fixed salary, Hourly rate, name, class Hour. and you can also see that in the second question, the two class I create: Dean and FuDean have an extra parameter: management allowance. So in this aspect, we can see that Inheritance and Polymorphism is needed in these question.
+
+在我看来，这两个问题都适合使用多态与继承
+因为在每个问题里面只有一个基类和多个衍生类，例如教授与副教授，他们都有着相同的参数：职称，课时补贴，基础工资，课时。而且在第二题里面还能看到新创建的两个衍生类：院长与副院长，他们都有一个额外的参数，苏哦一从这方面看来，这两题都需要使用多态与继承

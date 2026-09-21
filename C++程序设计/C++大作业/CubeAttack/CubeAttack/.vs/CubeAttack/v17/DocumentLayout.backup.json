@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Pathfinding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Pathfinding.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Guard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Guard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Map.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{93E17FB9-9945-42D8-BD0D-39D86D094A9D}|CubeAttack.vcxproj|solutionrelative:Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T13:41:58.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAAPgBAAAAAAAAAAAAAAACAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:56:57.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-23T10:42:55.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-08T04:05:49.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Guard.h",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.h",
+              "RelativeDocumentMoniker": "Guard.h",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.h",
+              "RelativeToolTip": "Guard.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAFIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T13:11:58.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guard.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.cpp",
+              "RelativeDocumentMoniker": "Guard.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Guard.cpp",
+              "RelativeToolTip": "Guard.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:57:28.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Map.h",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.h",
+              "RelativeDocumentMoniker": "Map.h",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.h",
+              "RelativeToolTip": "Map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T13:36:08.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utils.h",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.h",
+              "RelativeDocumentMoniker": "Utils.h",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.h",
+              "RelativeToolTip": "Utils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-02T13:09:28.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Utils.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.cpp",
+              "RelativeDocumentMoniker": "Utils.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Utils.cpp",
+              "RelativeToolTip": "Utils.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:58:28.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pathfinding.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Pathfinding.cpp",
+              "RelativeDocumentMoniker": "Pathfinding.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Pathfinding.cpp",
+              "RelativeToolTip": "Pathfinding.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwEgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:57:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Map.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.cpp",
+              "RelativeDocumentMoniker": "Map.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\Map.cpp",
+              "RelativeToolTip": "Map.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:57:04.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\\u795E\u79D8\u5927\u5B66\u751F\u4E13\u7528\u6587\u4EF6\u5939\\C\u002B\u002B\u7A0B\u5E8F\u8BBE\u8BA1\\C\u002B\u002B\u5927\u4F5C\u4E1A\\CubeAttack\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T12:09:03.427Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

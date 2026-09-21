@@ -1,0 +1,149 @@
+﻿  Game.cpp
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,81): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,81): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,81): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,81): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,81): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,49): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,49): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,49): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,49): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(399,49): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,83): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,83): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,83): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,83): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,83): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,49): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,49): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,49): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,49): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(403,49): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(508,16): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(509,15): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,52): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,52): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,52): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,52): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,52): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,42): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,42): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,42): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,42): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(570,42): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,75): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,75): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,75): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,75): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,75): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,50): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,50): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,50): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,50): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(576,50): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,72): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,72): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,72): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,72): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,72): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,48): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,48): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,48): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,48): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(855,48): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,83): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,83): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,83): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,83): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,83): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,40): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,40): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,40): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,40): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(863,40): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(872,59): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(872,59): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(872,59): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(872,59): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(872,59): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,38): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,38): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,38): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,38): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,38): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,33): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,33): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,33): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(876,33): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,41): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,41): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,41): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,41): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,41): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,33): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,33): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,33): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(886,33): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,44): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,44): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,44): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,44): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,44): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,37): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,37): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,37): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,37): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(897,37): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,46): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,46): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,46): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,46): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,46): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,33): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,33): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,33): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(903,33): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,37): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,37): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,37): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,37): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,37): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,33): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,33): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,33): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,33): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(909,33): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,42): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,42): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,42): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,42): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,42): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,38): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,38): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,38): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,38): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(916,38): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,47): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,47): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,47): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,47): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,47): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,41): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,41): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,41): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,41): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(920,41): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,45): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,45): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,45): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,45): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,45): warning C4244:         ]
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,41): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,41): warning C4244:         with
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,41): warning C4244:         [
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,41): warning C4244:             T=float
+D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\Game.cpp(945,41): warning C4244:         ]
+  CubeAttack.vcxproj -> D:\神秘大学生专用文件夹\C++程序设计\C++大作业\CubeAttack\x64\Debug\CubeAttack.exe
