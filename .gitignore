@@ -1,0 +1,67 @@
+# 本仓库不上传的个人资料目录（任意层级）
+电子课本/
+参赛项目/
+SRP相关/
+可能很重要的东西/
+论文/
+综测加分/
+无敌ppt/
+
+# 按要求排除马院必修的三张图片
+/大二/马院必修/红色基地-广州体育中心.png
+/大二/马院必修/红色基地-花城广场.png
+/大二/马院必修/粤在前列-花粥塔.png
+
+# 编辑器缓存与本机设置
+.vs/
+ipch/
+*.ipch
+*.suo
+*.vcxproj.user
+Browse.VC.db
+Solution.VC.db
+__pycache__/
+.pytest_cache/
+node_modules/
+*.pyc
+*.pyo
+
+# 编译、仿真与调试中间文件；保留源码、工程文件、发布程序和资料压缩包
+**/x64/Debug/
+**/x64/Release/
+**/x86/Debug/
+**/x86/Release/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.sarif
+*.exe.recipe
+*.FileListAbsolute.txt
+.Xil/
+*.cache/
+*.hw/
+*.sim/
+*.runs/
+*.ip_user_files/
+*.gen/
+xsim.dir/
+*.jou
+*.str
+*.wdb
+*.vcd
+*.pb
+*.rpt
+
+# 运行日志、个人练习记录与临时文件
+logs/
+*.log
+*.log.gz
+userinfo.dat
+~$*
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
+.DS_Store

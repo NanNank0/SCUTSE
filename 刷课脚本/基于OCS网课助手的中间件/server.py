@@ -8,7 +8,7 @@ import time
 app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"])
 
-DEEPSEEK_KEY = "sk-345fbdea8e5946b9a9077365316b7bd6"
+DEEPSEEK_KEY = "这里一定要先用deepseek的key替换掉😡"
 
 """
 这个沙比OSC会有很奇怪的东西输出出来
