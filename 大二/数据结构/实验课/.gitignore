@@ -1,0 +1,18 @@
+# 本机程序和快捷启动脚本
+程序/
+启动程序.cmd
+
+# 构建目录与 Qt Creator 的个人配置
+build/
+build-*/
+build_*/
+cmake-build-*/
+.qt/
+CMakeFiles/
+CMakeCache.txt
+*.user
+
+# 课堂提交包与 Office 临时文件
+*.zip
+*.rar
+~$*

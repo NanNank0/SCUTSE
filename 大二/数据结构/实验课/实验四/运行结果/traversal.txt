@@ -1,0 +1,5 @@
+邻接矩阵 BFS：A → B → C → D → E → F → G → H
+邻接链表 BFS：A → B → C → D → E → F → G → H
+邻接矩阵 DFS：A → B → D → G → E → C → F → H
+邻接链表 DFS：A → B → D → G → E → C → F → H
+验证通过：按编号递增扫描邻居；起点所在分量完成后继续遍历其他分量。

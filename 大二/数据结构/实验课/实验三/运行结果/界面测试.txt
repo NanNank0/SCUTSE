@@ -1,0 +1,1 @@
+PASS: sort GUI initial results, actual Run button, all 21 timing rows and verification message

@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.21)
+project(QuickSort LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Widgets)
+qt_add_executable(QuickSort WIN32 main.cpp)
+target_link_libraries(QuickSort PRIVATE Qt6::Widgets)
+if(MSVC)
+  target_compile_options(QuickSort PRIVATE /utf-8)
+endif()
+
+file(COPY "${CMAKE_CURRENT_SOURCE_DIR}/../测试数据" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
